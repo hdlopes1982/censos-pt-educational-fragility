@@ -95,20 +95,22 @@ The analysis combines:
 ---
 
 ## 🗂️ Repository Structure
-censos-pt-demografia/
+
+```text
+censos-pt-demografia
 │
-├── data/
-│ ├── raw/ # Original data sources (INE)
-│ ├── processed/ # Cleaned and analytical datasets
-│ └── shapes/ # GeoJSON files for map visualizations
+├── data
+│   ├── raw              (INE source data)
+│   ├── processed        (analytical datasets)
+│   └── shapes           (GeoJSON files)
 │
-├── notebooks/ # Data preparation and analysis
-├── powerbi/ # Final dashboard (.pbix)
-├── sql/ # SQL scripts for analytical tables
-├── images/ # Dashboard screenshots
+├── notebooks            (data preparation & analysis)
+├── powerbi              (final dashboard)
+├── sql                  (SQL scripts)
+├── images               (dashboard screenshots)
 │
 ├── requirements.txt
-└── README.md
+└── README.md```
 
 
 ---
