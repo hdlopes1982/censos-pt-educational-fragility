@@ -110,8 +110,8 @@ censos-pt-demografia
 ├── images               (dashboard screenshots)
 │
 ├── requirements.txt
-└── README.md```
-
+└── README.md
+```
 
 ---
 
