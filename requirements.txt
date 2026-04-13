@@ -1,0 +1,10 @@
+pandas
+openpyxl
+jupyter
+pyarrow
+matplotlib
+geopandas
+seaborn
+sklearn
+scipy
+pathlib
