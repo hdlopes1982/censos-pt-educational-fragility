@@ -1,27 +1,23 @@
 # 🇵🇹 Portugal Census 2021 — Educational & Demographic Fragility Analysis
 
-Territorial analysis of Portugal’s 2021 Census data, focusing on demographic ageing, educational levels, and socio-educational vulnerability across municipalities.
+Territorial analysis of Portugal’s 2021 Census data, focusing on demographic ageing, educational attainment, and socio-educational vulnerability across municipalities.
 
 ---
 
 ## 📊 Project Overview
 
-This project explores how demographic structure and educational attainment vary across Portuguese municipalities, aiming to identify territories facing higher socio-educational fragility.
+This project explores how demographic structure and educational levels vary across Portuguese municipalities, with the goal of identifying territories facing higher socio-educational fragility.
 
-The analysis combines:
-- Population structure (age groups, gender)
-- Educational attainment
-- Demographic ageing
-- Clustering and vulnerability scoring
+Rather than a closed study, this project is designed as an **exploratory and extensible analytical framework**, combining data analysis, modeling, and interactive visualization.
 
 ---
 
 ## ❓ Key Business Questions
 
-1. Which territories show the highest demographic ageing and loss of young population?
-2. Where are the biggest disparities between population structure and educational attainment?
-3. Which municipalities present the most fragile socio-educational profiles?
-4. How do demographic patterns vary across districts and regions?
+- Which territories show the highest demographic ageing and loss of young population?
+- Where are the biggest disparities between population structure and educational attainment?
+- Which municipalities present the most fragile socio-educational profiles?
+- How do demographic patterns vary across districts and regions?
 
 ---
 
@@ -31,9 +27,9 @@ The analysis combines:
 - Portugal Census 2021 (INE)
 
 ### Data Processing
-- Cleaning and transformation using Python (Pandas)
+- Data cleaning and transformation using Python (Pandas)
 - Feature engineering for demographic and educational indicators
-- Creation of analytical datasets at municipality level
+- Construction of analytical datasets at municipality level
 
 ### Analysis
 - Exploratory Data Analysis (EDA)
@@ -43,18 +39,30 @@ The analysis combines:
   - % population without schooling
   - % higher education
 
+### Data Modeling
+- Final analytical table (`concelhos_analitica`) created using SQL joins (SQLite)
+
 ### Visualization
-- Power BI dashboard with interactive filtering
-- Multi-page analytical storytelling
+- Interactive Power BI dashboard with multi-page analytical storytelling
+
+---
+
+## 📊 Interactive Dashboard
+
+You can explore the interactive Power BI dashboard here:
+
+👉 **[View Dashboard]https://app.powerbi.com/view?r=eyJrIjoiZDg4ZDQ1YzgtZGJjMS00MTQzLTk3MDktNTI0MmYxZjlhMjU5IiwidCI6IjlmN2RkY2U5LTgyNjktNGRmNy05MzQyLWJhNmY0OGY2YzQ0YyIsImMiOjl9**
+
+> Note: The dashboard is published via Power BI Service for demonstration purposes.
 
 ---
 
 ## 📈 Dashboard Pages
 
 ### 1. Territorial Overview
-- Total population and distribution
-- Most populated municipalities and regions
-- Geographic visualization (map)
+- Population distribution across regions and municipalities
+- Identification of most populated areas
+- Geographic visualization
 
 ![Overview](images/page_1_overview.png)
 
@@ -70,8 +78,8 @@ The analysis combines:
 
 ### 3. Educational Fragility
 - Relationship between higher education and lack of schooling
-- Identification of educational disparities
-- Clustering of municipalities
+- Identification of territorial disparities
+- Municipality clustering
 
 ![Educational Fragility](images/page_3_educational_fragility.png)
 
@@ -88,7 +96,7 @@ The analysis combines:
 ### 5. Socio-Educational Vulnerability
 - Composite vulnerability classification (low, medium, high)
 - Identification of high-risk municipalities
-- Distribution of vulnerability across clusters
+- Distribution across clusters
 
 ![Vulnerability](images/page_5_vulnerability.png)
 
@@ -175,6 +183,13 @@ Potential next steps include:
 - Developing a **predictive or clustering extension** using additional features
 
 This project is part of an ongoing analytical journey and may evolve into multiple complementary analyses.
+
+---
+
+## ⚠️ Notes
+
+- The Power BI file (.pbix) is not included to protect the data model and measures.
+- The dashboard is available via Power BI Service for interactive exploration.
 
 ---
 
